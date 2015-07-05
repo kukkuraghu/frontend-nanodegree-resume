@@ -147,7 +147,7 @@ function displayBio() {
             $("#skillsH3").append(formattedSkill);
         }
     }
-};
+}
 
 function displayWork() {
     var formattedWorkEmployerTitle = "";
@@ -202,8 +202,8 @@ function displayEducation() {
             $(".education-entry:last").append(formattedSchoolLocation);
             formattedSchoolMajor = HTMLschoolMajor.replace("%data%", education.schools[i].majors);
             $(".education-entry:last").append(formattedSchoolMajor);
-        };
-    };
+        }
+    }
     if (onlineCoursesCount > 0) {
         $("#education").append(HTMLonlineClasses);
         $("#education").append(HTMLschoolStart);
@@ -215,8 +215,8 @@ function displayEducation() {
             $(".education-entry:last").append(formattedOnlineDates);
             formattedOnlineURL = HTMLonlineURL.replace("%data%", education.onlineCourses[i].url);
             $(".education-entry:last").append(formattedOnlineURL);
-        };
-    };
+        }
+    }
 }
 
 
@@ -243,9 +243,9 @@ function displayProjects(){
             for (var j = 0; j < imageCount; j++) {
                 formattedProjectImage = HTMLprojectImage.replace("%data%", projects.projects[i].images[j]);
                 $(".project-entry:last").append(formattedProjectImage);
-            };
-        };
-    };
+            }
+        }
+    }
 }
 
 bio.display();
