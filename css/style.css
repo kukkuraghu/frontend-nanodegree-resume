@@ -13,6 +13,11 @@
   padding-right: 5%;
 }
 
+.online-url {
+  color: #2f11ec;
+  margin-top: 0px;
+}
+
 h1 {
   font-size: 40px;
   color: #F5A623;
@@ -101,7 +106,9 @@ a {
 
 .white-text {
   font-weight: bold;
+  font-size: 85%;
   color: #FFFFFF;
+  padding: 10px;
 }
 
 .gray {
@@ -128,8 +135,17 @@ a {
   padding: 10px;
 }
 
+/*
 .center-content {
   padding-top: 2.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2.5%
+}
+*/
+
+.center-content {
+  padding-top: 0%;
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 2.5%
